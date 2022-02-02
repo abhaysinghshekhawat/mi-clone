@@ -1,0 +1,29 @@
+#sp-outer{
+    display: flex;
+    justify-content: center;
+}
+
+.sp-inner-1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 615px;
+}
+
+.sp-inner-1 > div > a img{
+    transition: all 0.3s;
+}
+
+.sp-inner-0 >  a img{
+    transition: all 0.3s;
+}
+
+.sp-inner-1 > div > a img:hover {
+        box-shadow: 10px 10px 10px gray;
+        transform:translateY(-6px );
+}
+
+.sp-inner-0 > a img:hover{
+    box-shadow: 10px 10px 10px gray;
+    transform:translateY(-6px );
+}

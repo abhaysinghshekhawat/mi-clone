@@ -1,0 +1,50 @@
+#logo-div{
+    background-color: orangered;
+    max-width: 55px;
+    border-radius: 18px;
+    overflow: hidden;
+    
+    
+}
+
+#logo-image{
+    transition: all 0.5s;
+    transform: translateX(-55px);
+}
+
+#logo-image:hover{
+    transform: translateX(0px);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#search-bar > input{
+ border: none;
+ outline: none;
+ border-bottom: 1px solid black;
+ 
+}
+
+nav >div>svg:hover{
+    cursor: pointer;
+    fill: orange;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: rgb(43, 43, 43)
+}
+
+.nav-links:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+

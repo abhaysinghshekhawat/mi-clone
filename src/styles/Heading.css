@@ -1,0 +1,18 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.line-div{
+    height: 2px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    width: 30vmax;
+    margin: 20px;
+
+}
+
+#heading > h2{
+    color: grey;
+    font-weight: 200;
+}
