@@ -125,11 +125,11 @@ function onLeave(){
   return (
       <>
       <nav>
-          <a>
+          
               <div id="logo-div">
               <img id="logo-image" src={logo} alt="Not" />
               </div>
-          </a>
+          
             <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Redmi Phones</a>
             <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Tv</a>
             <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Laptops</a>
