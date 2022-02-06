@@ -40,7 +40,10 @@ nav >div>svg:hover{
 
 .nav-links{
     text-decoration: none;
-    color: rgb(43, 43, 43)
+    font-size: 1vmax;
+    color: rgb(43, 43, 43);
+    transition: all 0.3s;
+    
 }
 
 .nav-links:hover{

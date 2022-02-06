@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import ReactDOM   from 'react-dom';
+
 import{ BrowserRouter as Router ,Route,Routes } from 'react-router-dom';
 import Navbar from "./components/navbar";
 import data from "./data/data.json"
@@ -12,6 +12,7 @@ import StarProducts from './components/StarProducts'
 import HotAccessories from './components/HotAccessories'
 import HotAccessoriesMenu from './components/HotAccessoriesMenu'
 function App() {
+  
   return (
    <Router>
    

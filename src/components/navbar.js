@@ -5,17 +5,17 @@ const navbar = () => {
   return (
       <div className="navbar">
          <div >
-            <a href="">XIAOMI INDIA</a>
-            <a href="">GET MI STORE APP</a>
-            <a href="">ONLINE HELP</a>
-            <a href="">RETAIL STORE</a>
+            <a href="www.google.com">XIAOMI INDIA</a>
+            <a href="www.google.com">GET MI STORE APP</a>
+            <a href="www.google.com">ONLINE HELP</a>
+            <a href="www.google.com">RETAIL STORE</a>
          </div>
          
          <div>
-           <a href="">SIGN IN</a>
-           <a href="">SIGN UP</a>
+           <a href="www.google.com">SIGN IN</a>
+           <a href="www.google.com">SIGN UP</a>
             
-           <a href="">{cart} CART</a>
+           <a href="www.google.com">{cart} CART</a>
          </div>
       </div>
   )

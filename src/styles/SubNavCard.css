@@ -1,0 +1,18 @@
+#subNavCard-main{
+    display: flex;
+    justify-content: center;
+    
+    transition: all 1s;
+}
+
+#subNavCard-main > div img{
+    width: 12vw;
+}
+
+#subNavCard-main > div {
+    text-align: center;
+    
+}
+.i-price{
+    color: orangered;
+}
