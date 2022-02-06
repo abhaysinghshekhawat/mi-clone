@@ -147,7 +147,7 @@ function onLeave(){
 
 
       </nav>
-      <div id="nav-card-div" onMouseOut={onLeave}>
+      <div id="nav-card-div" onMouseLeave={onLeave}>
       {
         tgMiPhones && <SubNavCard data={data.miPhones} />
       }
