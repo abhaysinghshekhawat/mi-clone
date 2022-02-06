@@ -36,7 +36,7 @@
     flex-wrap: wrap;
     width: 55vw;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
@@ -53,6 +53,7 @@
 
 .a-features {
     transition: all 0.4s;
+    margin: 1vmax;
 }
 .a-features:hover{
     box-shadow: 1px 10px 5px rgb(153, 152, 152);
@@ -72,4 +73,22 @@
 #a-cover img{
     width: 20vw;
     
+}
+
+@media all and (max-width: 700px){
+    #a-view{
+        display: block;
+
+    }
+    #a-cover{
+        width: 20vmax;
+        margin: auto;
+    }
+    #a-content{
+        width: 95vw;
+
+    }
+    .a-features{
+        width: 20vw;
+    }
 }

@@ -15,4 +15,5 @@
 #heading > h2{
     color: grey;
     font-weight: 200;
+    font-size: 2vmax;
 }

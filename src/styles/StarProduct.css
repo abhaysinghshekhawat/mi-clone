@@ -1,13 +1,21 @@
 #sp-outer{
     display: flex;
     justify-content: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.sp-inner-0{
+
 }
 
 .sp-inner-1{
     display: flex;
     flex-wrap: wrap;
+    width: 40vw;
     
-    width: 615px;
+    
+    
 }
 
 .sp-inner-1 > div > a img{
@@ -26,4 +34,17 @@
 .sp-inner-0 > a img:hover{
     box-shadow: 10px 10px 10px gray;
     transform:translateY(-6px );
+}
+
+.sp-inner-0 > a img{
+    width: 40vw;
+}
+
+.sp-inner-1 > div > a img.up{
+    width: 20vw;
+}
+
+.sp-inner-1 > div > a img.lower{
+
+    width: 38vw;
 }

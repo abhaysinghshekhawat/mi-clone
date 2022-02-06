@@ -1,10 +1,11 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 
 const Slider = ({start}) => {
   return (
-    <Carousel fade>
+    <Carousel fade id="carousel">
      
          {
              start.map((item,idx)=>{
