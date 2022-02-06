@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
 import '../styles/Hotacess.css';
 const HotAccessories = ({musicCover,music,homeCover,home,lifeStyle,lifeStyleCover, mobileAccessories,mobileAccessoriesCover,smartDevices,smartDevicesCover}) => {
   return (

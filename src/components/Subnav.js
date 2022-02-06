@@ -130,14 +130,14 @@ function onLeave(){
               <img id="logo-image" src={logo} alt="Not" />
               </div>
           </a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Xiaomi Phones</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Redmi Phones</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Tv</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Laptops</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Fitness</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Home</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Audio</a>
-            <a href="" onMouseOver={mouseOver} className='nav-links'>Accessories</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Redmi Phones</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Tv</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Laptops</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Fitness</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Home</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Audio</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Accessories</a>
+            <a href="www.google.com" onMouseOver={mouseOver} className='nav-links'>Xiaomi Phones</a>
 
             <div id="search-bar">
                 <input type="text" name="search-bar" /> {magnify}
